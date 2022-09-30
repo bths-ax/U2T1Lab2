@@ -8,6 +8,6 @@ public class ChatBotRunner {
 		System.out.println("Also also, 5 feet is " + debbie.convertFeetToMeters(5) + " meters");
 		debbie.doAThing();
 		System.out.println("Returned thing: " + debbie.returnAThing());
-		debbie.goodbye();
+		System.out.println(debbie.goodbye());
 	}
 }
